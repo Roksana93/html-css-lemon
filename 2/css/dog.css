@@ -1,0 +1,28 @@
+span {
+	text-align: center;
+	text-decoration: underline;
+	color: DarkBlue;     
+}
+figcaption{ font-size: 14pt;
+}
+article {
+	text-align: center;
+}
+p {
+	text-align: left;
+}
+ol {
+	text-align: left;
+	color: #115411;
+	font-size: 14pt;
+}
+a {
+	color: #115411;
+
+}
+footer {
+	border-bottom: 2px dashed black;
+}
+h2 {
+	margin-bottom: -15px;
+}
