@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 80px;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto; 
+	background: #F6F964; 
+	color:white;
+
+}
+header {
+	text-align: center; 
+	background-color: #D39EEF; 
+}
+aside {
+	background-color: #F6F964;
+	text-align: left;
+
+}
+.left {
+	float: left;
+	width: 300px;	
+}
+.right {
+	float: right;
+	width: 200px;
+
+}
+.content {
+	background-color: #F9C0EA;
+	margin: 0 200px 0 300px; 
+}
+footer {
+	clear: both; 
+	background-color: #A13DD5; 
+	text-align: center; 
+}
