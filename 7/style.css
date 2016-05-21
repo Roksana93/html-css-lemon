@@ -1,0 +1,59 @@
+*{
+	font-size: 20px;
+}
+ul{
+	list-style-position: outside;
+	
+
+
+}
+
+
+li{
+    list-style-type: none;
+   
+    
+   }
+  a {
+
+	display: inline-block;
+  	color:black;
+    margin-left: 10px;
+    text-decoration: none; 
+
+
+}
+
+
+  a:after {
+  	content: '';
+  	display: block;
+  	width: 50%;
+  	height: 1px;
+  	background-color:blue;
+  	position: relative;
+ 	
+}
+a:hover:after { 
+	width: 100%;
+	transition: 1s;
+	
+
+}
+
+
+.firstlevel>li:before{
+	content:'★';
+	color: black;
+
+
+}
+.secondlevel>li:before{
+	content: '❤';
+	color: green;
+}
+.thirdlevel>li:before{
+	content: '☀';
+	color:blue;
+}
+
