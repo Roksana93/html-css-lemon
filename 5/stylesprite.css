@@ -23,7 +23,7 @@ body{
 }*/
 .conteiner {
 	padding: 51px 30px 46px 57px;
-	width: 800px;
+	width: 713px;
 	margin: -85px auto -96px auto;
 	background-color: #fff;
 	position: relative;
@@ -101,7 +101,7 @@ h3{
 }
 .photo{
 letter-spacing: -4px;	
-  padding-bottom: 45px;	
+  /*padding-bottom: 45px;	*/
 
 
 	
@@ -111,11 +111,7 @@ letter-spacing: -4px;
 	width: 210px;
 	height: 260px;
 	letter-spacing: normal;
-	margin-right: 20px;
-
-
-
-
+	margin-right: 15px;
 }
 .team-row .team-item:last-child {
 	margin-right: 0;
@@ -140,9 +136,6 @@ letter-spacing: -4px;
 .team-image-wrapper > img {
 	display: block;
 	position: relative;
-
-
-
 }
 .team-image-wrapper {
 	position: relative;
@@ -164,8 +157,47 @@ letter-spacing: -4px;
 	left: -5px;
 	display: none;
 	background-color: rgba(130, 242, 255, 0.62);
+
 }
-.team-item-links {
+
+
+.icon-wrapper {
+	width: 34px;
+	height: 34px;
+	float: left;
+	text-align: center;
+	background-color: #404040;
+	position: relative;
+    top: 112px;
+    left: 43px;
+}
+.icon-wrapper:hover {
+	background-color: #fff;
+}
+.icon-wrapper:hover .icon {
+	background-position-y: -16.5px;	
+}
+.icon {
+	height: 17px;
+	width: 15px;
+	margin-top: 7px;
+	background-image: url('sprite.png');
+	background-repeat: no-repeat;	
+	display: inline-block;
+}
+.icon-1 {
+	background-position: 0 0;	
+}
+.icon-2 {
+	background-position: -15px 0;
+}
+.icon-3 {
+	background-position: -30px 0;
+}
+.icon-4 {
+	background-position: -44px 0;
+}
+/*.team-item-links {
 	width: 124px;
 	height: 31px;
 	background-color: #404040;
@@ -183,7 +215,7 @@ letter-spacing: -4px;
 }
 .team-item-links img{
 	display: inline-block;
-}
+}*/
 /*.glassface{
 	display: inline-block; 
 	opacity:0.5;
@@ -196,13 +228,13 @@ letter-spacing: -4px;
   	   
  /*/*.glassface figcaption {
  	/*margin-left: 120px;*/
- 	text-align: center;
+ 	/*text-align: center;
  	font-family: sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	color: #4b4b4b;
 
-	 }
+	 }*/
 
 
 /* .glassface .photographer .redshirt span {
