@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ @import url(http://allfont.ru/allfont.css?fonts=montserrat-light);
+
+ .gradient{
+ 	margin: 0 auto;
+ 	width: 100%;
+   background-image: linear-gradient( to left, #e5e5e5, #fff);
+}
+
+ .table{
+ 	margin-left: 113px;
+ 	margin-top:336px;
+ 	width: 1146px;
+ 	background-color: #fff;
+ }
