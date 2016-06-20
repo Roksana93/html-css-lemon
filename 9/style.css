@@ -11,9 +11,10 @@ body{
 table{
 	border-collapse: collapse;
 	border:1px solid #EAE4EC;
-	margin: 20px 5px 10px;
-	width: 1400px;
+	margin: 20px auto;
+	width: 80%;
 	text-align: left;
+
 
 }
 td,th{
